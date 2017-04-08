@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="" method="get" id="tempForm">
+		<label for="temp">Enter a temperature || </label>
+		<input id="temp">
+		
+	
+	
+		<fieldset id='myField'>
+			<legend>What Kind of temperature</legend>
+			<input type="radio" id="radioFar" onkeypress="enterSubmit(event)">
+			<label for='radio'>Ferenhiet</label>
+			<input type="radio" id="radioCel">
+			<label for='radio'>Celcius</label>
+
+		</fieldset>
+	</form>
+	<div class="converted">
+	<h1>Your Converted Temperature</h1>
+		<p>
+			<button id="converter">convert</button>
+		</p>
+		<p id= "convTemp"></p>
+		<button id="clear">clear</button>
+
+
+
+
+		</form>
+	</div>
+
+
+
+
+
+<script type="text/javascript" src="converter.js"></script>
+</body>
+</html>
